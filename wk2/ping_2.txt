@@ -1,0 +1,12 @@
+C:\Users\Valentina>ping 142.93.146.161
+
+Pinging 142.93.146.161 with 32 bytes of data:
+Reply from 142.93.146.161: bytes=32 time=8ms TTL=53
+Reply from 142.93.146.161: bytes=32 time=7ms TTL=53
+Reply from 142.93.146.161: bytes=32 time=6ms TTL=53
+Reply from 142.93.146.161: bytes=32 time=6ms TTL=53
+
+Ping statistics for 142.93.146.161:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms, Maximum = 8ms, Average = 6ms

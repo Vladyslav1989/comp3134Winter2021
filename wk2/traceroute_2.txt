@@ -1,0 +1,16 @@
+Tracing route to 142.93.146.161 over a maximum of 30 hops
+
+  1    39 ms     5 ms     4 ms  mynetwork [192.168.2.1]
+  2     8 ms    14 ms     5 ms  10.11.7.73
+  3     *        *        *     Request timed out.
+  4    10 ms    14 ms     7 ms  tcore3-toronto12_37.net.bell.ca [64.230.59.198]
+  5     *        *        *     Request timed out.
+  6    20 ms    10 ms     5 ms  bx5-torontoxn_ae0.net.bell.ca [64.230.52.229]
+  7     5 ms     8 ms     6 ms  toro-b1-link.telia.net [213.248.97.222]
+  8     8 ms     4 ms     5 ms  toro-b1-link.ip.twelve99.net [62.115.116.181]
+  9    30 ms     8 ms     5 ms  digitalocean-ic-313814-toro-b1.c.telia.net [62.115.55.30]
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12    25 ms     6 ms     7 ms  142.93.146.161
+
+Trace complete.

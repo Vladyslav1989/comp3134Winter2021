@@ -1,0 +1,70 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 17:36 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00064s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 15.63 seconds
+________________________________________________________________________________________________________________________
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 instagram.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 17:38 UTC
+Nmap scan report for instagram.com (3.228.78.219)
+Host is up (0.021s latency).
+Other addresses for instagram.com (not scanned): 3.85.199.59 34.199.142.235 3.233.160.166 52.2.150.28 34.196.54.210 52.71.154.102 3.214.209.46 2406:da00:ff00::355:c73b 2406:da00:ff00::22eb:240e 2406:da00:ff00::3e1:f3ec 2406:da00:ff00::3650:6426 2406:da00:ff00::3447:df22 2406:da00:ff00::22c4:36d2 2406:da00:ff00::3449:f901 2406:da00:ff00::3dd:c65b
+rDNS record for 3.228.78.219: ec2-3-228-78-219.compute-1.amazonaws.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.12 seconds
+
+________________________________________________________________________________________________________________________
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 10-900 twitch.tv
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 17:39 UTC
+Nmap scan report for twitch.tv (151.101.66.167)
+Host is up (0.00081s latency).
+Other addresses for twitch.tv (not scanned): 151.101.2.167 151.101.194.167 151.101.130.167
+Not shown: 889 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.30 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
+
+________________________________________________________________________________________________________________________
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.ctapt.club
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 17:46 UTC
+Nmap scan report for www.ctapt.club (107.180.57.185)
+Host is up (0.016s latency).
+rDNS record for 107.180.57.185: ip-107-180-57-185.ip.secureserver.net
+Not shown: 85 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+25/tcp   open   smtp
+26/tcp   closed rsftp
+80/tcp   open   http
+110/tcp  open   pop3
+143/tcp  open   imap
+443/tcp  open   https
+465/tcp  open   smtps
+587/tcp  open   submission
+990/tcp  closed ftps
+993/tcp  open   imaps
+995/tcp  open   pop3s
+3306/tcp open   mysql
+8443/tcp closed https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 12.75 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

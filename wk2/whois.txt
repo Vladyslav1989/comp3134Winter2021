@@ -1,0 +1,83 @@
+www.facebook.com
+
+NameRegistrarSafe, LLC
+Whois Serverwhois.registrarsafe.com
+Referral URLhttps://www.registrarsafe.com
+StatusclientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Important Dates
+Expires On2028-03-30
+Registered On1997-03-29
+Updated On2020-03-10
+
+_____________________________________________________________________________________
+
+wwww.google.com
+Registrar Info
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2028-09-13
+Registered On1997-09-15
+Updated On2019-09-09
+
+_____________________________________________________________________________________
+
+twitter.com
+Registrar Info
+NameCSC CORPORATE DOMAINS, INC.
+Whois Serverwhois.corporatedomains.com
+Referral URLwww.cscprotectsbrands.com
+StatusclientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Important Dates
+Expires On2022-01-21
+Registered On2000-01-21
+Updated On2021-01-17
+
+_____________________________________________________________________________________
+
+www.canada.ca
+Registrar Info
+NameAuthentic Web Inc.
+Whois Serverwhois.ca.fury.ca
+Referral URLauthenticweb.com
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2021-10-16
+Registered On2002-11-25
+Updated On2020-09-17
+
+_____________________________________________________________________________________
+
+www.instagram.com
+
+Registrar Info
+NameRegistrarSafe, LLC
+Whois Serverwhois.registrarsafe.com
+Referral URLhttps://www.registrarsafe.com
+StatusclientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Important Dates
+Expires On2027-06-04
+Registered On2004-06-04
+Updated On2018-03-01
+	
