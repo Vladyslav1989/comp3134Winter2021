@@ -1,0 +1,51 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:58:03.131296 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 536213471:536213579, ack 2132225367, win 501, length 108
+        0x0000:  fe00 0000 0101 92c2 9031 af12 0800 4510  .........1....E.
+        0x0010:  0094 c8db 4000 4006 51da 8e5d 92a1 8e72  ....@.@.Q..]...r
+        0x0020:  702d 0016 c23f 1ff5 f7df 7f17 2d57 5018  p-...?......-WP.
+        0x0030:  01f5 2025 0000 abb3 9fcc 376d a006 259b  ...%......7m..%.
+        0x0040:  9c31 bf5e 2b83 6467 c75b c7e7 92ed 8d36  .1.^+.dg.[.....6
+        0x0050:  a0cc a644 fc14 6b22 953e a8b4 a8df 0595  ...D..k".>......
+        0x0060:  6577 6491 e9a3 cace 1077 2f8a 4a28 940b  ewd......w/.J(..
+        0x0070:  775a 668f c63f 62ea eff6 c2b5 9c4e b1ae  wZf..?b......N..
+        0x0080:  7ea3 ff37 c1af 5d6c 394f 9694 b542 3c02  ~..7..]l9O...B<.
+        0x0090:  6c89 5330 38b0 e0ed 174b ee16 fd0e f4b5  l.S08....K......
+        0x00a0:  722d                                     r-
+22:58:03.131387 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 92c2 9031 af12 0800 4510  .........1....E.
+        0x0010:  004c c8dc 4000 4006 5221 8e5d 92a1 8e72  .L..@.@.R!.]...r
+        0x0020:  702d 0016 c23f 1ff5 f84b 7f17 2d57 5018  p-...?...K..-WP.
+        0x0030:  01f5 1fdd 0000 de0c 6534 79d1 bd44 4f72  ........e4y..DOr
+        0x0040:  9dfa 1c3e 381f fe2a 979c 712f 786d d1a7  ...>8..*..q/xm..
+        0x0050:  6fb3 25f8 3ace cbcd 318d                 o.%.:...1.
+22:58:03.131455 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 144:252, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 92c2 9031 af12 0800 4510  .........1....E.
+        0x0010:  0094 c8dd 4000 4006 51d8 8e5d 92a1 8e72  ....@.@.Q..]...r
+        0x0020:  702d 0016 c23f 1ff5 f86f 7f17 2d57 5018  p-...?...o..-WP.
+        0x0030:  01f5 2025 0000 ae51 a893 e4de 2337 ba52  ...%...Q....#7.R
+        0x0040:  476b 2825 d330 9512 1a0d ce03 0f81 fad4  Gk(%.0..........
+        0x0050:  5df8 10d3 ec1f d6a9 9f64 f9b7 dd13 59c7  ]........d....Y.
+        0x0060:  3138 1086 08fa 444f 41c8 c905 74f0 4a48  18....DOA...t.JH
+        0x0070:  3410 3bed c481 e27e 0758 0e23 1206 cb9a  4.;....~.X.#....
+        0x0080:  7bc3 77b8 c9c4 e591 c0c2 1645 bb0d 14b4  {.w........E....
+        0x0090:  ea15 8d25 ff2a 1490 55bb 5edb 0ef9 0c2b  ...%.*..U.^....+
+        0x00a0:  0b6d                                     .m
+22:58:03.131509 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 252:288, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 92c2 9031 af12 0800 4510  .........1....E.
+        0x0010:  004c c8de 4000 4006 521f 8e5d 92a1 8e72  .L..@.@.R..]...r
+        0x0020:  702d 0016 c23f 1ff5 f8db 7f17 2d57 5018  p-...?......-WP.
+        0x0030:  01f5 1fdd 0000 45d2 be7d 6346 54d2 f6a8  ......E..}cFT...
+        0x0040:  39a3 178c 87f5 f659 b72d b484 c401 514d  9......Y.-....QM
+        0x0050:  3484 5a45 6ff2 538e 7680                 4.ZEo.S.v.
+22:58:03.131874 IP 142.93.146.161.41478 > dns.google.domain: 60487+ PTR? 45.112.114.142.in-addr.arpa. (45)
+        0x0000:  fe00 0000 0101 92c2 9031 af12 0800 4500  .........1....E.
+        0x0010:  0049 9904 4000 4011 7091 8e5d 92a1 0808  .I..@.@.p..]....
+        0x0020:  0808 a206 0035 0035 3155 ec47 0100 0001  .....5.51U.G....
+        0x0030:  0000 0000 0000 0234 3503 3131 3203 3131  .......45.112.11
+        0x0040:  3403 3134 3207 696e 2d61 6464 7204 6172  4.142.in-addr.ar
+        0x0050:  7061 0000 0c00 01                        pa.....
+5 packets captured
+22 packets received by filter
+0 packets dropped by kernel

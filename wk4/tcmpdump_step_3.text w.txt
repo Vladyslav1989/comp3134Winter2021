@@ -1,0 +1,17 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -A -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+22:54:48.876787 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 530933539:530933647, ack 2132219111, win 501, length 108
+E.....@.@.t2.]...rp-...?..g#....P... %...{fGn....e........G...EB8u.......d.V..H........n........X....XZ!....)....r.X5.....Y..\.....j.RURq....'.>.f].
+22:54:48.876845 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..L..@.@.ty.]...rp-...?..g.....P........Uv..C.X...kR..k......~u..O}....gT..
+22:54:48.876895 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E.....@.@.t0.]...rp-...?..g.....P... %..#..,W#N......]+..)...S....H...:.G?.4....4.Rx......i:X\nn~..._..3.....*..o....j2..[q....x...&m=..#T7..>......
+22:54:48.876966 IP 142.93.146.161.ssh > bras-base-toroon2638w-grc-51-142-114-112-45.dsl.bell.ca.49727: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..L..@.@.tw.]...rp-...?..h.....P.............14.5J..m......%.e..6w.....K...
+22:54:48.877315 IP 142.93.146.161.58637 > dns.google.domain: 60386+ PTR? 45.112.114.142.in-addr.arpa. (45)
+E..I
+@.@....].........5.51U.............45.112.114.142.in-addr.arpa.....
+5 packets captured
+23 packets received by filter
+0 packets dropped by kernel
