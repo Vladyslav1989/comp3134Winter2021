@@ -1,0 +1,11 @@
+What you see on the browser (the issue)
+
+directory of /var/www#
+• What sensitive information is given by this page
+structure about  the web-server 
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)

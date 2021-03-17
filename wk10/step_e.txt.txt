@@ -1,0 +1,6 @@
+Should not be able to view files and folders before html directory
+o HINT, Use basename()
+use array_diff()
+• Should not attempt to look at folders that do not exists
+o HINT, File_exists()
+use fileexist() and redirect to home page

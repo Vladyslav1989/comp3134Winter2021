@@ -1,0 +1,11 @@
+• What you see on the browser (the issue)
+errors displayed
+
+• What sensitive information is given by this page
+it shows us  path to root and name of the file
+
+Warning:  scandir(hello): failed to open dir: No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+
+
+Warning:  scandir(): (errno 2): No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
